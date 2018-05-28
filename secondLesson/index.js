@@ -35,3 +35,8 @@ let loopDoWhile = (a,b) => {
     } while (a<=b)
 };
 
+let loopFor =(a,b) => {
+    for (;a<=b; a++) {
+        if (a%2!==0) console.log(a);
+    }
+};
