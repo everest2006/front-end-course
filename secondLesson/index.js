@@ -28,3 +28,10 @@ let loopWhile = (a,b) => {
     }
 };
 
+let loopDoWhile = (a,b) => {
+    do {
+        if (a % 2 !== 0) console.log(a);
+        a++;
+    } while (a<=b)
+};
+
