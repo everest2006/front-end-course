@@ -6,7 +6,7 @@ let pow = (x,n) => {
     return Math.pow(x,n);
 };
 
-let questionFunc = (a) => {
+let questionFunc = () => {
     let a = +prompt('a?', '');
     switch (a) {
         case 0: alert( 0 );
@@ -18,6 +18,13 @@ let questionFunc = (a) => {
         case 3: alert( '2,3' );
                      break;
         default: alert( 'not found' );
+    }
+};
+
+let loopWhile = (a,b) => {
+    while (a<=b) {
+        if (a%2!==0) console.log(a);
+        a++;
     }
 };
 
