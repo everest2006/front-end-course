@@ -25,8 +25,3 @@ function Dog (name, kg) {
         return `Dog’s name is ${name}`;
     }
 }
-
-let cat1 = new Cat('Vasia', 25);
-let dog1 = new Dog('Misha', 30);
-
-
